@@ -1,0 +1,37 @@
+
+Grupo A - Compacto Com Ar (ECMR)
+
+kwid 1.0 Zen 2023
+
+Versão:	 1.0 12V SCE Zen
+Combustível:	 Flex - etanol / gasolina
+Detalhes:	 Hatch, 4 portas, 5 ocupantes
+Câmbio:	 Manual
+Velocidade máxima:	 156 km/h
+Porta-Malas (L): 290
+
+Conforto
+ar-condicionado,travas elétricas
+
+
+
+Grupo FS - Intermediário Sedan 
+
+Hyundai HB20S 1.6 Comfort Plus 2022
+
+Versão: 1.6 Comfort Plus
+Combustível:	 Flex - etanol / gasolina
+Detalhes:	  4 portas, 5 ocupantes
+Câmbio:	 Manual
+Velocidade máxima:	 190 km/h
+Porta-Malas (L): 450
+
+Conforto
+ar-condicionado,travas elétricas,piloto automático,volante com regulagem de altura
+
+
+
+Grupo FX - Intermediário Automático
+
+Grupo G - Suv
+Grupo P - 4X4 Especial 

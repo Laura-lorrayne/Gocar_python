@@ -14,6 +14,16 @@ Conforto
 ar-condicionado,travas elétricas
 
 
+Gol
+Volkswagen Gol 1.6 2023
+versão: 1.6
+Combustível:	 Flex - etanol / gasolina
+Detalhes:	  4 portas, 5 ocupantes
+Câmbio:	 Manual
+Velocidade máxima:	 	182 km/h
+Porta-Malas (L): 290
+
+
 
 Grupo FS - Intermediário Sedan 
 

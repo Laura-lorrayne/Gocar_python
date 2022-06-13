@@ -57,8 +57,11 @@ body{
 
 
   .conteudo {
-    margin-bottom: 48px;
-    
+  margin-top: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   }
 
 
@@ -92,7 +95,6 @@ body{
   }
   .card{
     background: #222 !important;
-    align-items: center;
   }
   .card-body{
    color: var(--branco-principal) !important;

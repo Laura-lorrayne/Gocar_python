@@ -18,20 +18,19 @@
             
             <div class="container">
                 
-            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-                <div   class="logo bg-dark">
-                 <img src="/img/logoPequena.png" alt="logo"width="120" height="48"class="d-inline-block align-text-top ">     
-                </div>
+              <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                  <div   class="logo bg-dark">
+                  <img src="/img/logoPequena.png" alt="logo"width="120" height="48"class="d-inline-block align-text-top ">     
+                  </div>
 
-                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                <li><a href="./cadastro.html" class="nav-link px-2 text-secondary">Cadastro</a></li>
-                <li><a href="../index.html" class="nav-link px-2 text-white">Home</a></li>
-                <li><a href="./catalago/catalago.html" class="nav-link px-2 text-white">Catálogo</a></li>
-                <li><a href="../contatos/contatos.html" class="nav-link px-2 text-white">Contatos</a></li>
-                </ul>
+                  <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                  <li><a href="./cadastro.html" class="nav-link px-2 text-secondary">Cadastro</a></li>
+                  <li><a href="../index.html" class="nav-link px-2 text-white">Home</a></li>
+                  <li><a href="./catalago/catalago.html" class="nav-link px-2 text-white">Catálogo</a></li>
+                  <li><a href="../contatos/contatos.html" class="nav-link px-2 text-white">Contatos</a></li>
+                  </ul>
 
-            </div>
+              </div>
             </div>
         </header>
 
@@ -41,11 +40,11 @@
         <body class="bg-light">
     
             <div class="container">
-              <main>
+              <main class="conteudo">
             
                 <div class="row g-5">
                   <div class="col-md-7 col-lg-8">
-                    <h4 class="mb-3">Cadastro de Usuario</h4>
+                    <h4 class="mb-3">Faça seu Cadastro</h4>
                     <form class="needs-validation" novalidate>
                       <div class="row g-3">
                         <div class="col-sm-12">
@@ -79,16 +78,16 @@
                         </div>
                         <div class="col-12">
                             <label for="address2" class="form-label">Referencia <span class="text-muted"></span></label>
-                            <input type="text" class="form-control" " placeholder="(99) 99999-9999" required>
-                          </div>
+                            <input type="text" class="form-control" required>
+                        </div>
                         <div class="col-6">
                             <label for="address2" class="form-label">Bairro <span class="text-muted"></span></label>
-                            <input type="text" class="form-control"  " required>
-                          </div>
+                            <input type="text" class="form-control"   required>
+                        </div>
                         <div class="col-6">
                             <label for="address2" class="form-label">Numero da casa <span class="text-muted"></span></label>
                             <input type="text" class="form-control" required>
-                          </div>
+                        </div>
             
                         <div class="col-12">
                           <label for="address" class="form-label">Endereço</label>
@@ -100,14 +99,13 @@
             
                         <div class="col-12">
                           <label for="address2" class="form-label">Telefone <span class="text-muted"></span></label>
-                          <input type="text" class="form-control" id="address2" placeholder="(99) 99999-9999" required>
+                          <input type="tel" class="form-control" id="address2" placeholder="(99) 99999-9999" required>
                         </div>
             
-                        <div class="col-md-3">
+                        <div class="col-md-6">
                             <div class="form-label">
                                 <label for="state">Estado</label>
                                 <select multiple class="form-control" id="state">
-                                    <option value="">Selecione</option>
                                     <option>Acre</option>
                                     <option>Alagoas</option>
                                     <option>Amapá</option>
@@ -135,8 +133,20 @@
                                     <option>Sergipe</option>
                                     <option>Tocantins</option>
                                     <option>Distrito Federal</option>
-                              </div>
-                        </div>           
+                                </select>  
+                            </div>
+                          </div>  
+
+                            <div class="col-6">
+                                <label for="address2" class="form-label">Senha <span class="text-muted"></span></label>
+                                <input type="password" class="form-control"  required>
+                            </div>
+                            <div class="col-6">
+                                <label for="address2" class="form-label">Confirmar senha <span class="text-muted"></span></label>
+                                <input type="password" class="form-control" required>
+                            </div>
+                      </div>  
+                      <br >         
                       <button class="w-100 btn btn-primary btn-lg" type="submit">Finalizar cadastro</button>
                     </form>
                   </div>
